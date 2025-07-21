@@ -1,4 +1,28 @@
 # React + TypeScript + Vite
+# JSON Schema Builder 🧩
+
+A web tool to create dynamic, nested JSON schemas with real-time preview. Built with React, Vite, TypeScript, and Ant Design.
+
+## 🔧 Features
+
+- Add/Edit/Delete fields
+- Nested fields supported
+- Live JSON output
+- Clean UI with Ant Design
+
+## 🛠️ Tech Stack
+
+- React + TypeScript
+- Vite
+- Ant Design
+- React Hook Form
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
