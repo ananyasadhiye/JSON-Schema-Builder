@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Output behavior */
+    "noEmit": true,
+
+    /* Module resolution */
+    "target": "es2022",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+
+    /* Type checking */
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* React */
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
+}
