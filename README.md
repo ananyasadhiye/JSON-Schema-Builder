@@ -1,93 +1,92 @@
-# React + TypeScript + Vite
-# JSON Schema Builder 🧩
+# 🧩 JSON Schema Builder
 
-A web tool to create dynamic, nested JSON schemas with real-time preview. Built with React, Vite, TypeScript, and Ant Design.
+A web tool to create dynamic, nested JSON schemas with real-time preview.  
+Built using **React**, **Vite**, **TypeScript**, **Ant Design**, and **React Hook Form**.
+
+---
+🌐 Live Demo
+👉 https://json-schema-builder-ananya.netlify.app
 
 ## 🔧 Features
 
-- Add/Edit/Delete fields
-- Nested fields supported
-- Live JSON output
-- Clean UI with Ant Design
+- ✅ Add, edit, delete fields
+- 🔁 Recursively nest fields
+- 👁️ Live JSON preview
+- 🎨 Beautiful UI with Ant Design
+
+---
 
 ## 🛠️ Tech Stack
 
-- React + TypeScript
-- Vite
-- Ant Design
-- React Hook Form
+- ⚛️ React + TypeScript
+- ⚡ Vite
+- 🎨 Ant Design (AntD)
+- 📋 React Hook Form
+- 🆔 UUID
+
+---
 
 ## 🚀 Getting Started
 
+### 1. Clone the repository
+
 ```bash
+git clone https://github.com/ananyasadhiye/JSON-Schema-Builder.git
+cd JSON-Schema-Builder
+2. Install dependencies
+bash
+Copy code
 npm install
+3. Start development server
+bash
+Copy code
 npm run dev
+The app will be running at: http://localhost:5173
 
+🌐 Live Demo
+👉 https://json-schema-builder-ananya.netlify.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📦 Build for Production
+bash
+Copy code
+npm run build
+Output is generated in the dist/ folder and can be deployed via Netlify, Vercel, etc.
 
-Currently, two official plugins are available:
+📁 Folder Structure
+css
+Copy code
+src/
+├── components/
+│   └── SchemaField.tsx
+├── App.tsx
+├── main.tsx
+├── types.ts
+├── utils.ts
+└── index.css
+👤 Author
+Ananya Sadhiye
+GitHub: @ananyasadhiye
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧪 Vite + React + TypeScript
+This project was bootstrapped using Vite with TypeScript and React:
 
-## Expanding the ESLint configuration
+Vite Documentation
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Ant Design
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+React Hook Form
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+yaml
+Copy code
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### ✅ How to Use
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Copy the above content into your `README.md` file.
+2. Commit and push:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+```bash
+git add README.md
+git commit -m "Add detailed README"
+git push
